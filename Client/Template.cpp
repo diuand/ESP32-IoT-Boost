@@ -5,7 +5,7 @@
 bool server_connected = false;
 WiFiClient client;
 const char* ssid = "Nicu-2.4"; // wifi name
-const char* password = "diuand1900"; // wifi pass
+const char* password = "test_test"; // wifi pass
 const char* serverIP = "192.168.1.131";  // server ip
 const int serverPort = 55004;
 
@@ -121,6 +121,7 @@ bool Board_init(String board_name,String commands_auto,String commands_manual,St
   return false;
   Serial.println(F("OFFLINE"));
 }
+
 
 
 
